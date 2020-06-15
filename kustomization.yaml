@@ -1,5 +1,9 @@
 bases:
 - github.com/jeichler/argocd-kustomize-minisample?ref=master
 - namespace.yaml
-patchesStrategicMerge:
-- replica_count.yaml
+
+replicas:
+  - name: print-headers
+    count: 5
+#patchesStrategicMerge:
+#- replica_count.yaml
