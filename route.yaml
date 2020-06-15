@@ -10,7 +10,6 @@ metadata:
 spec:
   port:
     targetPort: 8080-tcp
-  subdomain: ""
   tls:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge
