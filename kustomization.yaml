@@ -1,4 +1,3 @@
-resources:
-- deployment.yaml
-- service.yaml
-- route.yaml
+bases:
+- github.com/jeichler/argocd-kustomize-minisample?ref=master
+- namespace.yaml
