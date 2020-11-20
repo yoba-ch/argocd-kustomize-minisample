@@ -1,0 +1,6 @@
+apiVersion: apps.openshift.io/v1
+kind: DeploymentConfig
+metadata:
+  name: print-headers
+spec:
+  replicas: 10
